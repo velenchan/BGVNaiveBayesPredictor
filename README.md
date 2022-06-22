@@ -55,7 +55,7 @@ After these steps, an executable file named "BGVNaiveBayesPredictor" will be pro
 *  -hwt:         Hamming weight of the secret-key [ default=120 ]                                          
 *  -bsp:         bits in special primes [ default=58 ]                                                     
 *  -k:           the security parameter if -m is not specified [ default=80 ]
-*  -s:           a lower bound on #slots [ default=1 ]
+*  -s:           a lower bound on the number of slots [ default=1 ]
 *  -d:           the embedding degree [ default=1 ] 
 *  -f:           argmax returns former or later for equal maximum [ default=0 ]                            
 *  -v:           verbose [ default=0 ]
