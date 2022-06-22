@@ -17,7 +17,7 @@
 	./BGVNaiveBayesPredictor ../data/model_bcw_s0 ../data/test_bcw_bak -p 113 -m 18829 -b 250 -bsp 110 -hwt 0 -method 2 -v 1
 
 
-# all samples of iris#
+# all samples of iris #
 
 ## lambda = 151 ##
 	./BGVNaiveBayesPredictor ../data/model_iris_s0 ../data/test_iris -p 37 -m 21355 -b 270 -bsp 110 -hwt 0 -method 2 -v 1
