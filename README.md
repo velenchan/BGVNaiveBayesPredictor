@@ -63,7 +63,7 @@ After these steps, an executable file named "BGVNaiveBayesPredictor" will be pro
 
 ### An example ###
 
-./BGVNaiveBayesPredictor ../data/model_bcw_s0 ../data/test_bcw -p 113 -m 12883 -b 250 -bsp 110 -hwt 0
+	./BGVNaiveBayesPredictor ../data/model_bcw_s0 ../data/test_bcw -p 113 -m 12883 -b 250 -bsp 110 -hwt 0
      
     
 [1]: https://github.com/homenc/HElib    "HElib"
