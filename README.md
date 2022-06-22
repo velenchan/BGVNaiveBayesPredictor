@@ -41,24 +41,24 @@ After these steps, an executable file named "BGVNaiveBayesPredictor" will be pro
 ## How to use ##
  
 
-./BGVNaiveBayesPredictor [-m <arg>] [-method <arg>] [-n <arg>] [-p <arg>] [-r <arg>] [-b <arg>] [-c <arg>] [-hwt <arg>] [-bsp <arg>] [-k <arg>] [-s <arg>] [-d <arg>] [-f <arg>] [-v <arg>] <input-file1> <input-file2>                                                                                            
+./BGVNaiveBayesPredictor [-m `<arg>`] [-method `<arg>`] [-n `<arg>`] [-p `<arg>`] [-r `<arg>`] [-b `<arg>`] [-c `<arg>`] [-hwt `<arg>`] [-bsp `<arg>`] [-k `<arg>`] [-s `<arg>`] [-d `<arg>`] [-f `<arg>`] [-v `<arg>`] `<input-file1>` `<input-file2>`                                                                                            
 
-* <input-file1> the input model file. 
-* <input-file2> the input test data file.                                                                
-*  -m           the degree of the cyclotomic polynomial [ default=0 ] 
-*  -method      method to predict, '0' for naive, '1' for packed, and '2' for naive_packed [ default=0 ]  
-*  -n           the number of cpus [ default=0 ]                                                          
-*  -p           characteristic of plaintext space [ default=2 ]                                           
-*  -r           exponent of plaintext lifting [ default=1 ]                                               
-*  -b           the number of bits required for the modulus chain, i.e., a lower bound on the sum of bits of ctxtPrimes and specialPrimes [ default=50 ]
-*  -c           the number of digits/columns in the key-switching matrix [ default=3 ]                                
-*  -hwt         Hamming weight of the secret-key [ default=120 ]                                          
-*  -bsp         bits in special primes [ default=58 ]                                                     
-*  -k           the security parameter if -m is not specified [ default=80 ]
-*  -s           a lower bound on #slots [ default=1 ]
-*  -d           the embedding degree [ default=1 ] 
-*  -f           argmax returns former or later for equal maximum [ default=0 ]                            
-*  -v           verbose [ default=0 ]
+* `<input-file1>`:	 the input model file. 
+* `<input-file2>`:	 the input test data file.                                                                
+*  -m:           the degree of the cyclotomic polynomial [ default=0 ] 
+*  -method:      method to predict, '0' for naive, '1' for packed, and '2' for naive_packed [ default=0 ]  
+*  -n:           the number of cpus [ default=0 ]                                                          
+*  -p:           characteristic of plaintext space [ default=2 ]                                           
+*  -r:           exponent of plaintext lifting [ default=1 ]                                               
+*  -b:           the number of bits required for the modulus chain, i.e., a lower bound on the sum of bits of ctxtPrimes and specialPrimes [ default=50 ]
+*  -c:           the number of digits/columns in the key-switching matrix [ default=3 ]                                
+*  -hwt:         Hamming weight of the secret-key [ default=120 ]                                          
+*  -bsp:         bits in special primes [ default=58 ]                                                     
+*  -k:           the security parameter if -m is not specified [ default=80 ]
+*  -s:           a lower bound on #slots [ default=1 ]
+*  -d:           the embedding degree [ default=1 ] 
+*  -f:           argmax returns former or later for equal maximum [ default=0 ]                            
+*  -v:           verbose [ default=0 ]
  
 
 ### An example ###
