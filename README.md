@@ -1,6 +1,6 @@
 # BGVNaiveBayesPredictor #
 
-BGVNaiveBayesPredictor is an open-source (Mozilla Public License Version 2.0) C++ library for Non-interactive Privacy-Preserving Naive Bayes Classifier based on the homomorphic encryption library [HElib][1].
+BGVNaiveBayesPredictor is an open-source C++ library for Non-interactive Privacy-Preserving Naive Bayes Classifier based on the homomorphic encryption library [HElib][1].
 
 
 ## How to cite ##
@@ -39,8 +39,7 @@ You should download the source code from github and then run
 After these steps, an executable file named "BGVNaiveBayesPredictor" will be produced in the "build" folder.
 
 ## How to use ##
-
-Usage: 
+ 
 
 ./BGVNaiveBayesPredictor [-m <arg>] [-method <arg>] [-n <arg>] [-p <arg>] [-r <arg>] [-b <arg>] [-c <arg>] [-hwt <arg>] [-bsp <arg>] [-k <arg>] [-s <arg>] [-d <arg>] [-f <arg>] [-v <arg>] <input-file1> <input-file2>                                                                                            
 
@@ -63,6 +62,7 @@ Usage:
  
 
 ### An example ###
+
 ./BGVNaiveBayesPredictor ../data/model_bcw_s0 ../data/test_bcw -p 113 -m 12883 -b 250 -bsp 110 -hwt 0
      
     
