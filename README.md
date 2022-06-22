@@ -25,11 +25,9 @@ BGVNaiveBayesPredictor is an open-source (Mozilla Public License Version 2.0) C+
 
 ### Dependencies ###
 
-#### Required ####
+- [HElib][1] 2.1.0 or higher 
 
-- HElib 2.1.0 or higher [https://github.com/homenc/HElib](https://github.com/homenc/HElib)
-
-### Linux and MacOS ###
+### Linux  ###
 
 You should download the source code from github and then run
 
