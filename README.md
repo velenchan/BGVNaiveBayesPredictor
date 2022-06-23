@@ -3,24 +3,6 @@
 BGVNaiveBayesPredictor is an open-source C++ library for Non-interactive Privacy-Preserving Naive Bayes Classifier based on the homomorphic encryption library [HElib][1].
 
 
-## How to cite ##
-
-	@incollection{ChenFengLiuWuYang2022,
-		author="Chen, Jingwei 	and Feng, Yong and Liu, Yang and Wu, Wenyuan and Yang, Guanci",
-		editor="Shi, Wenbo and Chen, Xiaofeng and Choo, Kim-Kwang Raymond",
-		title="Non-interactive Privacy-Preserving Na{\"i}ve {B}ayes	Classifier Using Homomorphic Encryption",
-		booktitle="Proceedings of the 4th EAI International Conference on Security and Privacy in New Computing Environments (Virtual Event, December 10--11, 2021)",
-		year="2022",
-		publisher="Springer",
-		address="Cham",
-		series = {Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering},
-		volume = "423", 
-		pages="192--203",
-		note = {\url{https://doi.org/10.1007/978-3-030-96791-8_14}}
-	}
-
-
-
 ## Installation ##
 
 ### Dependencies ###
@@ -90,7 +72,25 @@ After these steps, an executable file named "BGVNaiveBayesPredictor" will be pro
 	./BGVNaiveBayesPredictor ../data/model_iris_s0 ../data/test_iris -p 37 -m 14539 -b 270 -bsp 110 -hwt 0 -method 2 -v 1
 
 ##### lambda = 74 #####
-	./BGVNaiveBayesPredictor ../data/model_iris_s0 ../data/test_iris -p 37 -m 14539 -b 330 -bsp 150 -hwt 0 -method 1 -v 1i ###
+	./BGVNaiveBayesPredictor ../data/model_iris_s0 ../data/test_iris -p 37 -m 14539 -b 330 -bsp 150 -hwt 0 -method 1 -v 1
+
+
+
+## How to cite ##
+
+	@incollection{ChenFengLiuWuYang2022,
+		author="Chen, Jingwei 	and Feng, Yong and Liu, Yang and Wu, Wenyuan and Yang, Guanci",
+		editor="Shi, Wenbo and Chen, Xiaofeng and Choo, Kim-Kwang Raymond",
+		title="Non-interactive Privacy-Preserving Na{\"i}ve {B}ayes	Classifier Using Homomorphic Encryption",
+		booktitle="Proceedings of the 4th EAI International Conference on Security and Privacy in New Computing Environments (Virtual Event, December 10--11, 2021)",
+		year="2022",
+		publisher="Springer",
+		address="Cham",
+		series = {Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering},
+		volume = "423", 
+		pages="192--203",
+		note = {\url{https://doi.org/10.1007/978-3-030-96791-8_14}}
+	}
 
     
 [1]: https://github.com/homenc/HElib    "HElib"
